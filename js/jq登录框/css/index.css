@@ -1,0 +1,22 @@
+* {
+    background: rgba(0,0,0,.1)
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.wrap-sm {
+    max-width: 450px;
+}
+
+.input-control {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.input-error {
+    color: red;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>淡入淡出</title>
+    <style>
+        body {
+            background: black;
+            position: relative;
+        }
+        .Spot{
+            background: url('timg.gif') no-repeat 0 0;
+            background-size: 100px 100px;
+            background-position:center center;
+        }
+        #zqSpot {
+            position: absolute;
+            top: 300px;
+            left: 1000px;
+        }
+        #hlSpot {
+            position: absolute;
+            top: 100px;
+            left: 400px;
+        }
+        .detaliImg {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+        #zg {
+            background: url('one.jpg') no-repeat 0;
+        }
+        #hl {
+            background: url('two.jpg') no-repeat 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="Spot" id="zqSpot">
+            <a href="javascript:;" class="zqSpotBtn">
+                <span class="hotSpotSpan"></span>
+                <div class="detaliImg" id="zg"></div>
+            </a>
+        </div>
+        <div class="Spot" id="hlSpot">
+            <a href="javascript:;" class="zqSpotBtn">
+                <span class="hotSpotSpan"></span>
+                <div class="detaliImg" id="hl"></div>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
