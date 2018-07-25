@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .yinyang {
+            height: 300px;
+            width: 300px;
+            margin: 100px auto;
+            position: relative;
+            transform:rotate(90deg);
+        }
+
+        .black,.white{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;;
+        }
+        .cir-black{
+            background-color: black;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 50%;
+
+        }
+        .cir-white{
+            background-color: white;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: -50%;
+            box-shadow:1px 1px 1px #ccc;
+        }
+        .cir-white-s{
+            background-color: white;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 25%;
+        }
+        .cir-black-s{
+            background-color: black;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 25%;
+            left: 50%;
+        }
+        .cir-white-s-s{
+            background-color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 62%;
+            left: 45%;
+        }
+        .cir-black-s-s{
+            background-color: black;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 62%;
+            left: 12%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yinyang">
+        <div class="black">
+            <div class="cir-black">
+                    <div class="cir-white-s">
+                    </div>
+            </div>
+        </div>
+        <div class="white">
+            <div class="cir-white">
+                    <div class="cir-black-s"></div>                
+            </div>
+        </div>
+        <div class="cir-white-s-s"></div>
+        <div class="cir-black-s-s"></div>
+    </div>
+</body>
+
+</html>
